@@ -9,6 +9,8 @@ int main()
 	char user, parent;
 	
 	cout << "Program that you can attend to." << endl;
+	cout << "Matinee movie = 7.50" <<endl;
+	cout << "Evening movie = 10.50" <<endl;
 	cout << "Enter your age: ";
 	cin >> age;
 	
@@ -17,22 +19,22 @@ int main()
 		cin >> user;
 	}
 	if (user == '1'){
-			cout << "You can watch the rated G, PG movies.";
+			cout << "You can watch the rated G, PG movies."<<endl;
 			}
 			else if ( user == '2') {
-			cout << "You can watch the rated G movies.";
+			cout << "You can watch the rated G movies."<<endl;
 			}
 	else if ( age == 13 && age < 16 ){
 		cout << "Are you going to watch the movie with your parents [1: Yes, 2: No]: ";
 	}
 			if (parent == 1){
-				cout <<"You can watch the rated G, PG, R movies.";
+				cout <<"You can watch the rated G, PG, R movies."<<endl;
 			}
 			else if (parent == 2 ){
-				cout << "You can watch the rated G, PG movies.";
+				cout << "You can watch the rated G, PG movies."<<endl;
 			}
 	else if (age > 16) {
-		cout  << "You can watch the rated G, PG, R movies. ";
+		cout  << "You can watch the rated G, PG, R movies. "<<endl;
 	}
 	cout << "please insert your amount of money : ";
 	cin >> money;
